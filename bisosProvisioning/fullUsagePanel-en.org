@@ -42,12 +42,15 @@
 ** [[elisp:(show-all)][|n]] [[elisp:(blee:menu-sel:outline:popupMenu)][+-]] [[elisp:(blee:menu-sel:navigation:popupMenu)][==]] [[elisp:(blee:bnsm:panel-goto "/bisos/panels/bisos")][@ *bisos* @]]    ::  Leaf: /bisos/
 ** [[elisp:(org-shifttab)][<)]] E|
 ####+END
-####+BEGIN: blee:bxPanel:foldingSection :outLevel 1 :sep t :title "Provisioing Model" :anchor "" :extraInfo ""
+####+BEGIN: blee:bxPanel:foldingSection :outLevel 1 :sep t :title "Provisioning Model" :anchor "" :extraInfo ""
 * /[[elisp:(beginning-of-buffer)][|^]]  [[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]] [[elisp:(delete-other-windows)][|1]]/ 
-* [[elisp:(show-all)][(>]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_       [[elisp:(org-cycle)][| *Provisioing Model:* |]]    [[elisp:(org-shifttab)][<)]] E|
+* [[elisp:(show-all)][(>]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_       [[elisp:(org-cycle)][| *Provisioning Model:* |]]    [[elisp:(org-shifttab)][<)]] E|
 ####+END
 ** 
-** Model
+####+BEGIN: blee:bxPanel:foldingSection :outLevel 2 :sep t :title "Overview Of bisosProvision.sh Model" :anchor "" :extraInfo ""
+** /[[elisp:(beginning-of-buffer)][|^]]  [[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]] [[elisp:(delete-other-windows)][|1]]/ 
+** [[elisp:(show-all)][(>]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_       [[elisp:(org-cycle)][| /Overview Of bisosProvision.sh Model:/ |]]    [[elisp:(org-shifttab)][<)]] E|
+####+END
 *** Provisioning Model
 **** A) Pip System -- pip install bisos.provision  --- Bash Standalone ICM Requires bisos.platform and
      Requires:
@@ -65,7 +68,10 @@
 **** from provisoners venv pip bisos.bx-bases  --- BISOS ICMs
 **** For development run /opt/bisosProvisioner/gitRepos/provisioners/bin/bisosProvisioners.sh
      Then bisosProvisioners.sh -h -v -n showRun -i gitPrepAuth
-** bisos.platform pip pkg
+####+BEGIN: blee:bxPanel:foldingSection :outLevel 2 :sep t :title "bisos.platform pip pkg" :anchor "" :extraInfo ""
+** /[[elisp:(beginning-of-buffer)][|^]]  [[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]] [[elisp:(delete-other-windows)][|1]]/ 
+** [[elisp:(show-all)][(>]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_       [[elisp:(org-cycle)][| /bisos.platform pip pkg:/ |]]    [[elisp:(org-shifttab)][<)]] E|
+####+END
 *** 
 *** Used by bisos.provision to determine rootDirs
 *** TODO /etc/bisosControl/fv/bisosPlatformInfo/value 
@@ -73,11 +79,20 @@
 *** When bisosPlatformInfo/value, uses its content as base for fileVars
 *** bisosPlatformInfo/value is created/updated during bisosProvision.sh (using /opt/provioners)
 *** 
-** 
-** Phases Description
+####+BEGIN: blee:bxPanel:foldingSection :outLevel 1 :sep t :title "bisosProvision.sh Stages" :anchor "" :extraInfo ""
+* /[[elisp:(beginning-of-buffer)][|^]]  [[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]] [[elisp:(delete-other-windows)][|1]]/ 
+* [[elisp:(show-all)][(>]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_       [[elisp:(org-cycle)][| *bisosProvision.sh Stages:* |]]    [[elisp:(org-shifttab)][<)]] E|
+####+END
+####+BEGIN: blee:bxPanel:foldingSection :outLevel 2 :sep t :title "Preparations And Overview" :anchor "" :extraInfo ""
+** /[[elisp:(beginning-of-buffer)][|^]]  [[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]] [[elisp:(delete-other-windows)][|1]]/ 
+** [[elisp:(show-all)][(>]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_       [[elisp:(org-cycle)][| /Preparations And Overview:/ |]]    [[elisp:(org-shifttab)][<)]] E|
+####+END
 *** Phase 0 -- Distro Installation -- Distro VM Image -- Vagrant Distro Image
 
-*** Phase 1 -- pip install bisos.provision
+####+BEGIN: blee:bxPanel:foldingSection :outLevel 2 :sep t :title "Stage 1:: /usr/local/bin" :anchor "" :extraInfo "pip install bisos.provision"
+** /[[elisp:(beginning-of-buffer)][|^]]  [[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]] [[elisp:(delete-other-windows)][|1]]/ 
+** [[elisp:(show-all)][(>]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_       [[elisp:(org-cycle)][| /Stage 1:: /usr/local/bin:/ |]]  pip install bisos.provision  [[elisp:(org-shifttab)][<)]] E|
+####+END
 
     bisos.provision requires bisos.bisos.bashStandaloneIcmSeed
 
@@ -90,14 +105,17 @@
        - It installs git
        - It configures git
        - It clones what is needed for Phase-2 in /opt/bisosProvision
-       - Runs what is needed from there.
+       - Runs the rest from there.
 
-    bin/bisosProvision is just an interfaces that hides gitRepos/provisioners from users.
+    After that bin/bisosProvision is just an interfaces that 
+    hides /opt/bisosProvision/gitRepos/provisioners from users.
 
-      
-*** Phase 2 -- /opt/bisosProvision/gitRepos/provisioners
+####+BEGIN: blee:bxPanel:foldingSection :outLevel 2 :sep t :title "Stage 2:: /opt/bisosProvision/gitRepos/provisioners" :anchor "" :extraInfo "git clone"
+** /[[elisp:(beginning-of-buffer)][|^]]  [[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]] [[elisp:(delete-other-windows)][|1]]/ 
+** [[elisp:(show-all)][(>]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_       [[elisp:(org-cycle)][| /Stage 2:: /opt/bisosProvision/gitRepos/provisioners:/ |]]  git clone  [[elisp:(org-shifttab)][<)]] E|
+####+END
 
-    /usr/local/bin/bisosProvision then git clones /var/bisosProvision/gitRepos/provisioners
+    /usr/local/bin/bisosProvision.sh then git clones /var/bisosProvision/gitRepos/provisioners
     and from within /opt/bisosProvision/gitRepos/provisioners/bin invokes as needed.
 
     gitRepos/provisioners is a SELF-CONTAINED-ICM
@@ -115,14 +133,19 @@
        - It creates needed symlinks
        - Sets up blee
 
+####+BEGIN: blee:bxPanel:foldingSection :outLevel 2 :sep t :title "Stage 2-Dev:: /opt/bisosProvision/gitRepos/provisioners" :anchor "" :extraInfo "external passwd and keys"
+** /[[elisp:(beginning-of-buffer)][|^]]  [[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]] [[elisp:(delete-other-windows)][|1]]/ 
+** [[elisp:(show-all)][(>]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_       [[elisp:(org-cycle)][| /Stage 2-Dev:: /opt/bisosProvision/gitRepos/provisioners:/ |]]  external passwd and keys  [[elisp:(org-shifttab)][<)]] E|
+####+END
+
 *** Phase 2-dev -- /var/bisosProvision/gitRepos/provisioners
 
     Sets up passwds and keys for authenticated git.
 
-*** Phase 3 -- Obtain Needed BxOs
-
-*** Phase 4 -- Configure And Run Services
-
+####+BEGIN: blee:bxPanel:foldingSection :outLevel 2 :sep t :title "Stage 3:: /bisos/core/bin" :anchor "" :extraInfo "with bisos/pip/pkgs"
+** /[[elisp:(beginning-of-buffer)][|^]]  [[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]] [[elisp:(delete-other-windows)][|1]]/ 
+** [[elisp:(show-all)][(>]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_       [[elisp:(org-cycle)][| /Stage 3:: /bisos/core/bin:/ |]]  with bisos/pip/pkgs  [[elisp:(org-shifttab)][<)]] E|
+####+END
 
 ####+BEGIN: blee:bxPanel:separator :outLevel 1
 * /[[elisp:(beginning-of-buffer)][|^]] [[elisp:(blee:menu-sel:navigation:popupMenu)][==]] [[elisp:(delete-other-windows)][|1]]/
