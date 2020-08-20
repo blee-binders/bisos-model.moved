@@ -9,7 +9,7 @@ SEED="
 *  /[dblock]/ /Seed/ :: [[file:/opt/public/osmt/bin/seedFtoCommon.sh]] | 
 "
 FILE="
-*  /This File/ :: /bisos/git/auth/bxRepos/blee-binders/bisos-model/ftoProc.sh 
+*  /This File/ :: /bisos/panels/bisos/model/ftoProc.sh 
 "
 if [ "${loadFiles}" == "" ] ; then
     /opt/public/osmt/bin/seedFtoCommon.sh -l $0 "$@" 
@@ -34,6 +34,9 @@ _CommentEnd_
 ####+BEGIN: bx:dblock:ploneProc:bash:leavesList :types ""
 # {{{ DBLOCK-leavesList
 leavesList="
+modelAndTerminology
+bisosProvisioning
+ICM
 "
 # }}} DBLOCK-leavesList
 ####+END:
@@ -46,6 +49,7 @@ _CommentEnd_
 ####+BEGIN: bx:dblock:ploneProc:bash:nodesList :types ""
 # {{{ DBLOCK-nodesList
 nodesList="
+_nodeBase_
 "
 # }}} DBLOCK-nodesList
 ####+END:
