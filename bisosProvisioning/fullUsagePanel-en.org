@@ -42,10 +42,22 @@
 ** [[elisp:(show-all)][|n]] [[elisp:(blee:menu-sel:outline:popupMenu)][+-]] [[elisp:(blee:menu-sel:navigation:popupMenu)][==]] [[elisp:(blee:bnsm:panel-goto "/bisos/panels/bisos")][@ *bisos* @]]    ::  Leaf: /bisos/
 ** [[elisp:(org-shifttab)][<)]] E|
 ####+END
-####+BEGIN: blee:bxPanel:linkWithTreeElem :agenda t :sep t :outLevel 2 :model "auto" :foldDesc "auto" :destDesc "/opt/bisosProvisioner/gitRepos/provisioners/bin/bisosProvision.sh" :dest "/opt/bisosProvisioner/gitRepos/provisioners/bin"
+####+BEGIN: blee:bxPanel:linkWithTreeElem :agenda t :sep t :outLevel 2 :model "auto" :foldDesc "auto" :destDesc "/opt/bisosProvisioner/gitRepos/provisioners/bin" :dest "/opt/bisosProvisioner/gitRepos/provisioners/bin"
 * /[[elisp:(beginning-of-buffer)][|^]] [[elisp:(blee:menu-sel:navigation:popupMenu)][==]] [[elisp:(delete-other-windows)][|1]]/
-* [[elisp:(show-all)][(>]] [[elisp:(blee:menu-sel:outline:popupMenu)][+-]] [[elisp:(blee:menu-sel:navigation:popupMenu)][==]] [[elisp:(blee:bnsm:panel-goto "/opt/bisosProvisioner/gitRepos/provisioners/bin")][@ ~/opt/bisosProvisioner/gitRepos/provisioners/bin/bisosProvision.sh~ @]]   ::  [[elisp:(org-cycle)][| /bin/ |]]  [[elisp:(org-shifttab)][<)]] E|
+* [[elisp:(show-all)][(>]] [[elisp:(blee:menu-sel:outline:popupMenu)][+-]] [[elisp:(blee:menu-sel:navigation:popupMenu)][==]] [[elisp:(blee:bnsm:panel-goto "/opt/bisosProvisioner/gitRepos/provisioners/bin")][@ ~/opt/bisosProvisioner/gitRepos/provisioners/bin~ @]]   ::  [[elisp:(org-cycle)][| /bin/ |]]  [[elisp:(org-shifttab)][<)]] E|
 ####+END
+####+BEGIN: blee:bxPanel:foldingSection :outLevel 1 :sep t :title "Next Steps" :anchor "" :extraInfo ""
+* /[[elisp:(beginning-of-buffer)][|^]]  [[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]] [[elisp:(delete-other-windows)][|1]]/ 
+* [[elisp:(show-all)][(>]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_       [[elisp:(org-cycle)][| *Next Steps:* |]]    [[elisp:(org-shifttab)][<)]] E|
+####+END
+** 
+** TODO Add provBisosPlatform.sh to /bisos/core/bsip3/bin/
+   SCHEDULED: <2020-08-23 Sun>
+** TODO In provBisosPlatform.sh: populate /bisos/venv
+** TODO In provBisosPlatform.sh: Setup ~bystar environment.
+** TODO Add support for virtualization technologies
+** TODO Create a blee usable VM from scratch.
+** B|
 ####+BEGIN: blee:bxPanel:foldingSection :outLevel 1 :sep t :title "Provisioning Model" :anchor "" :extraInfo ""
 * /[[elisp:(beginning-of-buffer)][|^]]  [[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]] [[elisp:(delete-other-windows)][|1]]/ 
 * [[elisp:(show-all)][(>]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_       [[elisp:(org-cycle)][| *Provisioning Model:* |]]    [[elisp:(org-shifttab)][<)]] E|
