@@ -48,20 +48,42 @@
 ** [[elisp:(show-all)][|n]] [[elisp:(blee:menu-sel:outline:popupMenu)][+-]] [[elisp:(blee:menu-sel:navigation:popupMenu)][==]] [[elisp:(blee:bnsm:panel-goto "/bisos/panels/bisos")][@ *bisos* @]]    ::  Leaf: /bisos/
 ** [[elisp:(org-shifttab)][<)]] E|
 ####+END
+####+BEGIN: blee:bxPanel:foldingSection :outLevel 0 :sep t :title "Related Chained Panels" :anchor "" :extraInfo ""
+* /[[elisp:(beginning-of-buffer)][|^]]  [[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]] [[elisp:(delete-other-windows)][|1]]/ 
+* [[elisp:(show-all)][(>]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_     [[elisp:(org-cycle)][| _Related Chained Panels_: |]]    [[elisp:(org-shifttab)][<)]] E|
+####+END
 ####+BEGIN: blee:bxPanel:foldingSection :outLevel 1 :sep t :title "Bisos Account Types" :anchor "bisosAccountTypes" :extraInfo "bisos, bystar, bxo"
 * /[[elisp:(beginning-of-buffer)][|^]]  [[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]] [[elisp:(delete-other-windows)][|1]]/ 
 * [[elisp:(show-all)][(>]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_       [[elisp:(org-cycle)][| *Bisos Account Types:* |]] <<bisosAccountTypes>> bisos, bystar, bxo  [[elisp:(org-shifttab)][<)]] E|
 ####+END
+####+BEGIN: blee:bxPanel:foldingSection :outLevel 2 :sep t :title "root" :anchor "" :extraInfo ""
+** /[[elisp:(beginning-of-buffer)][|^]]  [[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]] [[elisp:(delete-other-windows)][|1]]/ 
+** [[elisp:(show-all)][(>]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_       [[elisp:(org-cycle)][| /root:/ |]]    [[elisp:(org-shifttab)][<)]] E|
+####+END
+*** 
+*** acctName: root
+*** Shell: /bin/bash
+*** Passwd: policy assigned or user selected
+*** sudo-priv: root
+*** Uid: 0
+*** Primary Group: 0
+*** Home:  /root
+*** umask: 0755
+*** Skeletton: none
+*** 
+*** B|
 ####+BEGIN: blee:bxPanel:foldingSection :outLevel 2 :sep t :title "bisos: account and bisos group" :anchor "" :extraInfo ""
 ** /[[elisp:(beginning-of-buffer)][|^]]  [[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]] [[elisp:(delete-other-windows)][|1]]/ 
 ** [[elisp:(show-all)][(>]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_       [[elisp:(org-cycle)][| /bisos: account and bisos group:/ |]]    [[elisp:(org-shifttab)][<)]] E|
 ####+END
 *** 
+*** acctName: bisos
 *** Shell: nologin
+*** Passwd: none
 *** sudo-priv: root -- until sealed
-*** Uid: Centrally Pre-Assigned
-*** Group: bisos
-*** Home:  /bxo/io/nu
+*** Uid: Constant
+*** Primary Group: bisos
+*** Home:  /bxo/bisos
 *** umask: 0755
 *** Skeletton: fto --
 *** 
@@ -71,11 +93,13 @@
 ** [[elisp:(show-all)][(>]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_       [[elisp:(org-cycle)][| /bystar: account:/ |]]    [[elisp:(org-shifttab)][<)]] E|
 ####+END
 *** 
+*** *** acctName: bystar
 *** Shell: /bin/bash
-*** sudo-priv: none
+*** Passwd: policy assigned or user selected
+*** sudo-priv: root -- until sealed
 *** Uid: Centrally Pre-Assigned
-*** Group: bisos
-*** Home:  /bxo/io/nu
+*** Primary Group: bisos
+*** Home:  /bxo/bystar
 *** umask: 0755
 *** Skeletton: fto --
 *** 
