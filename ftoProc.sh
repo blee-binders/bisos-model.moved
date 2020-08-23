@@ -35,8 +35,12 @@ _CommentEnd_
 # {{{ DBLOCK-leavesList
 leavesList="
 modelAndTerminology
+fileTreeObject-FTO
+bisosAccts
+fileParameters
 bisosProvisioning
 ICM
+fileVariables
 "
 # }}} DBLOCK-leavesList
 ####+END:
@@ -50,6 +54,7 @@ _CommentEnd_
 # {{{ DBLOCK-nodesList
 nodesList="
 _nodeBase_
+PP-hardware
 "
 # }}} DBLOCK-nodesList
 ####+END:
