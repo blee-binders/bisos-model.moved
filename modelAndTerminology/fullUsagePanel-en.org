@@ -48,15 +48,35 @@
 ####+END
 *** 
 *** Platform Terminology
-**** Box    -- Hardware of Sys -- Any computer suited for becoming a BxP
+**** 
+**** Box: Hardware of Sys -- Any computer suited for becoming a BxP
+**** PP: Physical Platform (same as a Box)
+**** EPP: Effective Physical Environment -- The Physical Environment in Effect
+**** 
 **** Sys:  Any of VM-Host, Guest or Pure-Host (independent of what software is on it.)
 **** Host: Any of VM-Host or Pure-Host
 **** VM-Host: A Host capable of hosting Guests
 **** Guest: A VM Guest
 **** Pure-Host: A Host which does not support any Guests
+**** 
 **** BxP: ByStar Platform -- Any Sys equipped with BISOS
 **** Platform: Same as BxP -- Any Sys equipped with BISOS
 **** 
+*** 
+*** Platform Concepts/Hierarchies
+**** 
+**** Distro Image
+**** sysBasePlatform
+**** bxoContainer
+**** bxoContainer-BACS (Bystar Account Container Server)
+**** bxoContainer-BACS-BSSP (Bystar Service Specific Platforms)
+**** bxoContainer-BISP (Bystar Intra Server Platform)
+**** bxoContainer-BUP (ByStar User Environment)
+**** bxoContainer-BUP-BCCUP/BMUP (Bystar Conscious Carry User Platform -- Netbook/NoteBook)
+**** bxoContainer-BUP-BUCUP/BHUP (Bystar Unconscious Carry User Platform -- Handset)
+**** 
+*** 
+*** Platform Provisioning 
 *** 
 *** ICM Terminology
 **** 
