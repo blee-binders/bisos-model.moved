@@ -142,9 +142,9 @@
 ####+BEGIN: blee:panel:unix:cmnd :outLevel 3 :sep nil :folding? nil :label "Bootstrap" :command "ls -l /bisos/git/bxRepos/bisos-pip/bashStandaloneIcmSeed/py2/bin/seedIcmStandalone.bash" :comment "" :afterComment ""
 *** [[elisp:(show-all)][(>]] [[elisp:(blee:menu-sel:outline:popupMenu)][+-]] [[elisp:(blee:menu-sel:navigation:popupMenu)][==]]  /Bootstrap/ :: [[elisp:(lsip-local-run-command "ls -l /bisos/git/bxRepos/bisos-pip/bashStandaloneIcmSeed/py2/bin/seedIcmStandalone.bash")][ls -l /bisos/git/bxRepos/bisos-pip/bashStandaloneIcmSeed/py2/bin/seedIcmStandalone.bash]] *|*  == *|*    [[elisp:(org-shifttab)][<)]] E|
 ####+END:
-####+BEGIN: blee:panel:file:text/intro :outLevel 3 :sep t :folding? t :label "more" :fileName "/bisos/git/bxRepos/bisos-pip/provision/py2/bin/bisosProvision.sh" :comment "" :afterComment ""
+####+BEGIN: blee:panel:file:text/intro :outLevel 3 :sep t :folding? t :label "more" :fileName "/bisos/git/bxRepos/bisos-pip/provision/py2/bin/provisionBisos.sh" :comment "" :afterComment ""
 *** /[[elisp:(beginning-of-buffer)][|^]] [[elisp:(blee:menu-sel:navigation:popupMenu)][==]] [[elisp:(delete-other-windows)][|1]]/
-*** [[elisp:(show-all)][(>]] [[elisp:(blee:menu-sel:outline:popupMenu)][+-]] [[elisp:(blee:menu-sel:navigation:popupMenu)][==]]  [[elisp:(org-cycle)][| /more/ |]] :: [[elisp:(find-file "/bisos/git/bxRepos/bisos-pip/provision/py2/bin/bisosProvision.sh")][/bisos/git/bxRepos/bisos-pip/provision/py2/bin/bisosProvision.sh]] || [[elisp:(find-file-other-window "/bisos/git/bxRepos/bisos-pip/provision/py2/bin/bisosProvision.sh")][Visit In Other]] *|*  == *|*   [[elisp:(org-shifttab)][<)]] E|
+*** [[elisp:(show-all)][(>]] [[elisp:(blee:menu-sel:outline:popupMenu)][+-]] [[elisp:(blee:menu-sel:navigation:popupMenu)][==]]  [[elisp:(org-cycle)][| /more/ |]] :: [[elisp:(find-file "/bisos/git/bxRepos/bisos-pip/provision/py2/bin/provisionBisos.sh")][/bisos/git/bxRepos/bisos-pip/provision/py2/bin/provisionBisos.sh]] || [[elisp:(find-file-other-window "/bisos/git/bxRepos/bisos-pip/provision/py2/bin/provisionBisos.sh")][Visit In Other]] *|*  == *|*   [[elisp:(org-shifttab)][<)]] E|
 ####+END:
 *** 
 *** Creates ~bisos and ~bystar
