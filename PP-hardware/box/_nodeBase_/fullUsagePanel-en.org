@@ -34,15 +34,15 @@
 * [[elisp:(show-all)][(>]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_       [[elisp:(org-cycle)][| *Panel Tree Navigation:* |]] <<panelTreeNav>>   [[elisp:(org-shifttab)][<)]] E|
 ####+END
 ####+BEGIN: blee:bxPanel:linedTreeNavigator :model "auto" :outLevel 2
-** [[elisp:(show-all)][(>]] [[elisp:(blee:menu-sel:outline:popupMenu)][+-]] [[elisp:(blee:menu-sel:navigation:popupMenu)][==]]     ~Decedent Links Of:~ ~box~ 
+** [[elisp:(show-all)][|N]] [[elisp:(blee:menu-sel:outline:popupMenu)][+-]] [[elisp:(blee:menu-sel:navigation:popupMenu)][==]]    <<~box~>> ~nil:~ :inDblock 
 ** [[elisp:(show-all)][|n]] [[elisp:(blee:menu-sel:outline:popupMenu)][+-]] [[elisp:(blee:menu-sel:navigation:popupMenu)][==]] [[elisp:(blee:bnsm:panel-goto "/bisos/panels/bisos/model/PP-hardware/box/asus/_nodeBase_")][@ =asus= @]]    ::  Node: /asus/
 ** [[elisp:(show-all)][|n]] [[elisp:(blee:menu-sel:outline:popupMenu)][+-]] [[elisp:(blee:menu-sel:navigation:popupMenu)][==]] [[elisp:(blee:bnsm:panel-goto "/bisos/panels/bisos/model/PP-hardware/box/dell/_nodeBase_")][@ =dell= @]]    ::  Node: /dell/
 ** [[elisp:(show-all)][|n]] [[elisp:(blee:menu-sel:outline:popupMenu)][+-]] [[elisp:(blee:menu-sel:navigation:popupMenu)][==]] [[elisp:(blee:bnsm:panel-goto "/bisos/panels/bisos/model/PP-hardware/box/rasberryPi/_nodeBase_")][@ =rasberryPi= @]]    ::  Node: /rasberryPi/
 ** [[elisp:(show-all)][|n]] [[elisp:(blee:menu-sel:outline:popupMenu)][+-]] [[elisp:(blee:menu-sel:navigation:popupMenu)][==]] [[elisp:(blee:bnsm:panel-goto "/bisos/panels/bisos/model/PP-hardware/box/samsung/_nodeBase_")][@ =samsung= @]]    ::  Node: /samsung/
-** [[elisp:(show-all)][(>]] [[elisp:(blee:menu-sel:outline:popupMenu)][+-]] [[elisp:(blee:menu-sel:navigation:popupMenu)][==]]     ~Siblings Links Of:~ ~box~ 
+** [[elisp:(show-all)][|N]] [[elisp:(blee:menu-sel:outline:popupMenu)][+-]] [[elisp:(blee:menu-sel:navigation:popupMenu)][==]]    <<~box~>> ~nil:~ :inDblock 
 ** [[elisp:(show-all)][|n]] [[elisp:(blee:menu-sel:outline:popupMenu)][+-]] [[elisp:(blee:menu-sel:navigation:popupMenu)][==]] [[elisp:(blee:bnsm:panel-goto "/bisos/panels/bisos/model/PP-hardware/box/_nodeBase_")][@ =box= @]]    ::  Node: /box/
 ** [[elisp:(show-all)][|n]] [[elisp:(blee:menu-sel:outline:popupMenu)][+-]] [[elisp:(blee:menu-sel:navigation:popupMenu)][==]] [[elisp:(blee:bnsm:panel-goto "/bisos/panels/bisos/model/PP-hardware/graphics/_nodeBase_")][@ =graphics= @]]    ::  Node: /graphics/
-** [[elisp:(show-all)][(>]] [[elisp:(blee:menu-sel:outline:popupMenu)][+-]] [[elisp:(blee:menu-sel:navigation:popupMenu)][==]]     ~Ancestor Links Of:~ ~box~ 
+** [[elisp:(show-all)][|N]] [[elisp:(blee:menu-sel:outline:popupMenu)][+-]] [[elisp:(blee:menu-sel:navigation:popupMenu)][==]]    <<~box~>> ~nil:~ :inDblock 
 ** [[elisp:(show-all)][|n]] [[elisp:(blee:menu-sel:outline:popupMenu)][+-]] [[elisp:(blee:menu-sel:navigation:popupMenu)][==]] [[elisp:(blee:bnsm:panel-goto "/bisos/panels/bisos/model/PP-hardware/_nodeBase_")][@ =PP-hardware= @]]    ::  Node: /PP-hardware/
 ** [[elisp:(show-all)][|n]] [[elisp:(blee:menu-sel:outline:popupMenu)][+-]] [[elisp:(blee:menu-sel:navigation:popupMenu)][==]] [[elisp:(blee:bnsm:panel-goto "/bisos/panels/bisos/model/_nodeBase_")][@ =model= @]]    ::  Node: /model/
 ** [[elisp:(org-shifttab)][<)]] E|

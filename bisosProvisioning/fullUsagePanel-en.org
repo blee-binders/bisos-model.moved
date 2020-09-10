@@ -18,7 +18,8 @@
 * [[elisp:(show-all)][(>]] [[elisp:(describe-function 'org-dblock-write:blee:bxPanel:terseTreeNavigator)][dbf]]
 * [[elisp:(show-all)][|n]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_   General Panels ::   [[img-link:file:/bisos/blee/env/images/bystarInside.jpg][http://www.by-star.net]] *|*  [[elisp:(find-file "/libre/ByStar/InitialTemplates/activeDocs/listOfDocs/fullUsagePanel-en.org")][BxDE Top Panel]] *|* [[elisp:(blee:bnsm:panel-goto "/libre/ByStar/InitialTemplates/activeDocs/planning/Main")][ByStar Planning]]
 
-*   =Sibling Panles=   :: [[elisp:(blee:bnsm:panel-goto "/bisos/panels/bisos/model/ICM")][ICM]] *|* [[elisp:(blee:bnsm:panel-goto "/bisos/panels/bisos/model/bisosProvisioning")][bisosProvisioning]] *|* [[elisp:(blee:bnsm:panel-goto "/bisos/panels/bisos/model/modelAndTerminology")][modelAndTerminology]] *|* 
+*   =Sibling Panles=   :: [[elisp:(blee:bnsm:panel-goto "/bisos/panels/bisos/model/ICM")][ICM]] *|* [[elisp:(blee:bnsm:panel-goto "/bisos/panels/bisos/model/PP-hardware/_nodeBase_")][ =PP-hardware= ]] *|* [[elisp:(blee:bnsm:panel-goto "/bisos/panels/bisos/model/bisosAccts")][bisosAccts]] *|* [[elisp:(blee:bnsm:panel-goto "/bisos/panels/bisos/model/bisosProvisioning")][bisosProvisioning]] *|* [[elisp:(blee:bnsm:panel-goto "/bisos/panels/bisos/model/fileParameters")][fileParameters]] *|* 
+*   =Sibling Panles=   :: [[elisp:(blee:bnsm:panel-goto "/bisos/panels/bisos/model/fileTreeObject-FTO")][fileTreeObject-FTO]] *|* [[elisp:(blee:bnsm:panel-goto "/bisos/panels/bisos/model/fileVariables")][fileVariables]] *|* [[elisp:(blee:bnsm:panel-goto "/bisos/panels/bisos/model/modelAndTerminology")][modelAndTerminology]] *|* 
 *   =Ancestor Panles=  :: [[elisp:(blee:bnsm:panel-goto "/bisos/panels/bisos/model/_nodeBase_")][ =model= ]] *|* [[elisp:(blee:bnsm:panel-goto "/bisos/panels/bisos")][bisos]] *|* 
 *                                   _━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━_                          [[elisp:(org-shifttab)][<)]] E|
 ####+END
@@ -26,27 +27,63 @@
 * [[elisp:(show-all)][(>]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_       [[elisp:(org-cycle)][| *Overview:* |]] <<Panel>>   [[elisp:(org-shifttab)][<)]] E|
 ####+END
 ** 
-** Overview Comes Here.
+** See Provisoning Model below.
 ** B|
 ####+BEGIN: blee:bxPanel:foldingSection :outLevel 1 :sep t :title "Panel Tree Navigation" :anchor "panelTreeNav" :extraInfo ""
 * /[[elisp:(beginning-of-buffer)][|^]]  [[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]] [[elisp:(delete-other-windows)][|1]]/ 
 * [[elisp:(show-all)][(>]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_       [[elisp:(org-cycle)][| *Panel Tree Navigation:* |]] <<panelTreeNav>>   [[elisp:(org-shifttab)][<)]] E|
 ####+END
 ####+BEGIN: blee:bxPanel:linedTreeNavigator :model "auto" :outLevel 2
-** [[elisp:(show-all)][(>]] [[elisp:(blee:menu-sel:outline:popupMenu)][+-]] [[elisp:(blee:menu-sel:navigation:popupMenu)][==]]     ~Siblings Links Of:~ ~bisosProvisioning~ 
+** [[elisp:(show-all)][|N]] [[elisp:(blee:menu-sel:outline:popupMenu)][+-]] [[elisp:(blee:menu-sel:navigation:popupMenu)][==]]    <<~bisosProvisioning~>> ~nil:~ :inDblock 
 ** [[elisp:(show-all)][|n]] [[elisp:(blee:menu-sel:outline:popupMenu)][+-]] [[elisp:(blee:menu-sel:navigation:popupMenu)][==]] [[elisp:(blee:bnsm:panel-goto "/bisos/panels/bisos/model/ICM")][@ *ICM* @]]    ::  Leaf: /ICM/
+** [[elisp:(show-all)][|n]] [[elisp:(blee:menu-sel:outline:popupMenu)][+-]] [[elisp:(blee:menu-sel:navigation:popupMenu)][==]] [[elisp:(blee:bnsm:panel-goto "/bisos/panels/bisos/model/PP-hardware/_nodeBase_")][@ =PP-hardware= @]]    ::  Node: /PP-hardware/
+** [[elisp:(show-all)][|n]] [[elisp:(blee:menu-sel:outline:popupMenu)][+-]] [[elisp:(blee:menu-sel:navigation:popupMenu)][==]] [[elisp:(blee:bnsm:panel-goto "/bisos/panels/bisos/model/bisosAccts")][@ *bisosAccts* @]]    ::  Leaf: /bisosAccts/
 ** [[elisp:(show-all)][|n]] [[elisp:(blee:menu-sel:outline:popupMenu)][+-]] [[elisp:(blee:menu-sel:navigation:popupMenu)][==]] [[elisp:(blee:bnsm:panel-goto "/bisos/panels/bisos/model/bisosProvisioning")][@ *bisosProvisioning* @]]    ::  Leaf: /bisosProvisioning/
+** [[elisp:(show-all)][|n]] [[elisp:(blee:menu-sel:outline:popupMenu)][+-]] [[elisp:(blee:menu-sel:navigation:popupMenu)][==]] [[elisp:(blee:bnsm:panel-goto "/bisos/panels/bisos/model/fileParameters")][@ *fileParameters* @]]    ::  Leaf: /fileParameters/
+** [[elisp:(show-all)][|n]] [[elisp:(blee:menu-sel:outline:popupMenu)][+-]] [[elisp:(blee:menu-sel:navigation:popupMenu)][==]] [[elisp:(blee:bnsm:panel-goto "/bisos/panels/bisos/model/fileTreeObject-FTO")][@ *fileTreeObject-FTO* @]]    ::  Leaf: /fileTreeObject-FTO/
+** [[elisp:(show-all)][|n]] [[elisp:(blee:menu-sel:outline:popupMenu)][+-]] [[elisp:(blee:menu-sel:navigation:popupMenu)][==]] [[elisp:(blee:bnsm:panel-goto "/bisos/panels/bisos/model/fileVariables")][@ *fileVariables* @]]    ::  Leaf: /fileVariables/
 ** [[elisp:(show-all)][|n]] [[elisp:(blee:menu-sel:outline:popupMenu)][+-]] [[elisp:(blee:menu-sel:navigation:popupMenu)][==]] [[elisp:(blee:bnsm:panel-goto "/bisos/panels/bisos/model/modelAndTerminology")][@ *modelAndTerminology* @]]    ::  Leaf: /modelAndTerminology/
-** [[elisp:(show-all)][(>]] [[elisp:(blee:menu-sel:outline:popupMenu)][+-]] [[elisp:(blee:menu-sel:navigation:popupMenu)][==]]     ~Ancestor Links Of:~ ~bisosProvisioning~ 
+** [[elisp:(show-all)][|N]] [[elisp:(blee:menu-sel:outline:popupMenu)][+-]] [[elisp:(blee:menu-sel:navigation:popupMenu)][==]]    <<~bisosProvisioning~>> ~nil:~ :inDblock 
 ** [[elisp:(show-all)][|n]] [[elisp:(blee:menu-sel:outline:popupMenu)][+-]] [[elisp:(blee:menu-sel:navigation:popupMenu)][==]] [[elisp:(blee:bnsm:panel-goto "/bisos/panels/bisos/model/_nodeBase_")][@ =model= @]]    ::  Node: /model/
 ** [[elisp:(show-all)][|n]] [[elisp:(blee:menu-sel:outline:popupMenu)][+-]] [[elisp:(blee:menu-sel:navigation:popupMenu)][==]] [[elisp:(blee:bnsm:panel-goto "/bisos/panels/bisos")][@ *bisos* @]]    ::  Leaf: /bisos/
 ** [[elisp:(org-shifttab)][<)]] E|
 ####+END
+####+BEGIN: blee:bxPanel:linkWithTreeElem :agenda t :sep t :outLevel 2 :model "auto" :foldDesc "auto" :destDesc "/opt/bisosProvisioner/gitRepos/provisioners/bin" :dest "/opt/bisosProvisioner/gitRepos/provisioners/bin"
+* /[[elisp:(beginning-of-buffer)][|^]] [[elisp:(blee:menu-sel:navigation:popupMenu)][==]] [[elisp:(delete-other-windows)][|1]]/
+* [[elisp:(show-all)][(>]] [[elisp:(blee:menu-sel:outline:popupMenu)][+-]] [[elisp:(blee:menu-sel:navigation:popupMenu)][==]] [[elisp:(blee:bnsm:panel-goto "/opt/bisosProvisioner/gitRepos/provisioners/bin")][@ ~/opt/bisosProvisioner/gitRepos/provisioners/bin~ @]]   ::  [[elisp:(org-cycle)][| /bin/ |]]  [[elisp:(org-shifttab)][<)]] E|
+####+END
+####+BEGIN: blee:bxPanel:foldingSection :outLevel 1 :sep t :title "Next Steps" :anchor "" :extraInfo ""
+* /[[elisp:(beginning-of-buffer)][|^]]  [[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]] [[elisp:(delete-other-windows)][|1]]/ 
+* [[elisp:(show-all)][(>]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_       [[elisp:(org-cycle)][| *Next Steps:* |]]    [[elisp:(org-shifttab)][<)]] E|
+####+END
+** 
+** TODO Add provBisosPlatform.sh to /bisos/core/bsip3/bin/
+   SCHEDULED: <2020-08-23 Sun>
+** TODO In provBisosPlatform.sh: populate /bisos/venv
+** TODO In provBisosPlatform.sh: Setup ~bystar environment.
+** TODO Add support for virtualization technologies
+** TODO Create a blee usable VM from scratch.
+** B|
 ####+BEGIN: blee:bxPanel:foldingSection :outLevel 1 :sep t :title "Provisioning Model" :anchor "" :extraInfo ""
 * /[[elisp:(beginning-of-buffer)][|^]]  [[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]] [[elisp:(delete-other-windows)][|1]]/ 
 * [[elisp:(show-all)][(>]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_       [[elisp:(org-cycle)][| *Provisioning Model:* |]]    [[elisp:(org-shifttab)][<)]] E|
 ####+END
-** 
+####+BEGIN: blee:bxPanel:foldingSection :outLevel 2 :sep t :title "Overview Of Platform Provisioning" :anchor "" :extraInfo ""
+** /[[elisp:(beginning-of-buffer)][|^]]  [[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]] [[elisp:(delete-other-windows)][|1]]/ 
+** [[elisp:(show-all)][(>]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_       [[elisp:(org-cycle)][| /Overview Of Platform Provisioning:/ |]]    [[elisp:(org-shifttab)][<)]] E|
+####+END
+***  2 Steps   --- 1) Creates "Base BISOS Platform"  --- 2) Creates Configured BISOS Platform
+####+BEGIN: blee:bxPanel:linkWithTreeElem :agenda t :sep t :outLevel 4 :model "auto" :foldDesc "auto" :destDesc "auto" :dest "/bisos/panels/bisos/core/bootstrap/baseBisosPlatform"
+*** /[[elisp:(beginning-of-buffer)][|^]] [[elisp:(blee:menu-sel:navigation:popupMenu)][==]] [[elisp:(delete-other-windows)][|1]]/
+*** [[elisp:(show-all)][(>]] [[elisp:(blee:menu-sel:outline:popupMenu)][+-]] [[elisp:(blee:menu-sel:navigation:popupMenu)][==]] [[elisp:(blee:bnsm:panel-goto "/bisos/panels/bisos/core/bootstrap/baseBisosPlatform")][@ ~baseBisosPlatform~ @]]   ::  [[elisp:(org-cycle)][| /baseBisosPlatform/ |]]  [[elisp:(org-shifttab)][<)]] E|
+####+END
+####+BEGIN: blee:bxPanel:linkWithTreeElem :agenda t :sep t :outLevel 4 :model "auto" :foldDesc "auto" :destDesc "auto" :dest "/bisos/panels/bisos/core/bootstrap/configuredBisosPlatform"
+*** /[[elisp:(beginning-of-buffer)][|^]] [[elisp:(blee:menu-sel:navigation:popupMenu)][==]] [[elisp:(delete-other-windows)][|1]]/
+*** [[elisp:(show-all)][(>]] [[elisp:(blee:menu-sel:outline:popupMenu)][+-]] [[elisp:(blee:menu-sel:navigation:popupMenu)][==]] [[elisp:(blee:bnsm:panel-goto "/bisos/panels/bisos/core/bootstrap/configuredBisosPlatform")][@ ~configuredBisosPlatform~ @]]   ::  [[elisp:(org-cycle)][| /configuredBisosPlatform/ |]]  [[elisp:(org-shifttab)][<)]] E|
+####+END
+*** 
+*** Creation of baseBisosPlatform is triggered by /usr/local/bin/bisosProvision.sh -i baseBisosPlatform
+*** Configuration of configuredBisosPlatform is through the core/bootstrap/configuredBisosPlatform panel
 ####+BEGIN: blee:bxPanel:foldingSection :outLevel 2 :sep t :title "Overview Of bisosProvision.sh Model" :anchor "" :extraInfo ""
 ** /[[elisp:(beginning-of-buffer)][|^]]  [[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]] [[elisp:(delete-other-windows)][|1]]/ 
 ** [[elisp:(show-all)][(>]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_       [[elisp:(org-cycle)][| /Overview Of bisosProvision.sh Model:/ |]]    [[elisp:(org-shifttab)][<)]] E|
@@ -89,49 +126,84 @@
 ####+END
 *** Phase 0 -- Distro Installation -- Distro VM Image -- Vagrant Distro Image
 
-####+BEGIN: blee:bxPanel:foldingSection :outLevel 2 :sep t :title "Stage 1:: /usr/local/bin" :anchor "" :extraInfo "pip install bisos.provision"
+####+BEGIN: blee:bxPanel:foldingSection :outLevel 2 :sep t :title "Stage 1:: Executed from /usr/local/bin/bisosProvision.sh" :anchor "" :extraInfo "pip install bisos.provision"
 ** /[[elisp:(beginning-of-buffer)][|^]]  [[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]] [[elisp:(delete-other-windows)][|1]]/ 
-** [[elisp:(show-all)][(>]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_       [[elisp:(org-cycle)][| /Stage 1:: /usr/local/bin:/ |]]  pip install bisos.provision  [[elisp:(org-shifttab)][<)]] E|
+** [[elisp:(show-all)][(>]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_       [[elisp:(org-cycle)][| /Stage 1:: Executed from /usr/local/bin/bisosProvision.sh:/ |]]  pip install bisos.provision  [[elisp:(org-shifttab)][<)]] E|
 ####+END
+####+BEGIN: blee:panel:unix:cmnd :outLevel 3 :sep nil :folding? nil :label "pip Pkg" :command "pip3 list | grep -i bisos.provision" :comment "Is bisos.provision installed?" :afterComment ""
+*** [[elisp:(show-all)][(>]] [[elisp:(blee:menu-sel:outline:popupMenu)][+-]] [[elisp:(blee:menu-sel:navigation:popupMenu)][==]]  /pip Pkg/ :: [[elisp:(lsip-local-run-command "pip3 list | grep -i bisos.provision")][pip3 list | grep -i bisos.provision]] *|*  =Is bisos.provision installed?= *|*    [[elisp:(org-shifttab)][<)]] E|
+####+END:
+####+BEGIN: blee:panel:unix:cmnd :outLevel 3 :sep nil :folding? nil :label "pip Pkg" :command "pip3 list | grep -i bisos.bashStandaloneIcmSeed" :comment "Is bisos.bashStandaloneIcmSeed installed?" :afterComment ""
+*** [[elisp:(show-all)][(>]] [[elisp:(blee:menu-sel:outline:popupMenu)][+-]] [[elisp:(blee:menu-sel:navigation:popupMenu)][==]]  /pip Pkg/ :: [[elisp:(lsip-local-run-command "pip3 list | grep -i bisos.bashStandaloneIcmSeed")][pip3 list | grep -i bisos.bashStandaloneIcmSeed]] *|*  =Is bisos.bashStandaloneIcmSeed installed?= *|*    [[elisp:(org-shifttab)][<)]] E|
+####+END:
 
-    bisos.provision requires bisos.bisos.bashStandaloneIcmSeed
+    bisos.provision requires bisos.bashStandaloneIcmSeed
 
-    Creates:
+####+BEGIN: blee:panel:unix:cmnd :outLevel 3 :sep nil :folding? nil :label "Bootstrap" :command "ls -l /bisos/git/bxRepos/bisos-pip/bashStandaloneIcmSeed/py2/bin/seedIcmStandalone.bash" :comment "" :afterComment ""
+*** [[elisp:(show-all)][(>]] [[elisp:(blee:menu-sel:outline:popupMenu)][+-]] [[elisp:(blee:menu-sel:navigation:popupMenu)][==]]  /Bootstrap/ :: [[elisp:(lsip-local-run-command "ls -l /bisos/git/bxRepos/bisos-pip/bashStandaloneIcmSeed/py2/bin/seedIcmStandalone.bash")][ls -l /bisos/git/bxRepos/bisos-pip/bashStandaloneIcmSeed/py2/bin/seedIcmStandalone.bash]] *|*  == *|*    [[elisp:(org-shifttab)][<)]] E|
+####+END:
+####+BEGIN: blee:panel:file:text/intro :outLevel 3 :sep t :folding? t :label "more" :fileName "/bisos/git/bxRepos/bisos-pip/provision/py2/bin/provisionBisos.sh" :comment "" :afterComment ""
+*** /[[elisp:(beginning-of-buffer)][|^]] [[elisp:(blee:menu-sel:navigation:popupMenu)][==]] [[elisp:(delete-other-windows)][|1]]/
+*** [[elisp:(show-all)][(>]] [[elisp:(blee:menu-sel:outline:popupMenu)][+-]] [[elisp:(blee:menu-sel:navigation:popupMenu)][==]]  [[elisp:(org-cycle)][| /more/ |]] :: [[elisp:(find-file "/bisos/git/bxRepos/bisos-pip/provision/py2/bin/provisionBisos.sh")][/bisos/git/bxRepos/bisos-pip/provision/py2/bin/provisionBisos.sh]] || [[elisp:(find-file-other-window "/bisos/git/bxRepos/bisos-pip/provision/py2/bin/provisionBisos.sh")][Visit In Other]] *|*  == *|*   [[elisp:(org-shifttab)][<)]] E|
+####+END:
+*** 
+*** Creates ~bisos and ~bystar
+*** B|
+####+BEGIN: blee:panel:unix:cmnd :outLevel 3 :sep nil :folding? nil :label "Bootstrap" :command "ls -l /bisos/git/bxRepos/bisos-pip/provision/py2/bin/bisosProvision.sh" :comment "" :afterComment ""
+*** [[elisp:(show-all)][(>]] [[elisp:(blee:menu-sel:outline:popupMenu)][+-]] [[elisp:(blee:menu-sel:navigation:popupMenu)][==]]  /Bootstrap/ :: [[elisp:(lsip-local-run-command "ls -l /bisos/git/bxRepos/bisos-pip/provision/py2/bin/bisosProvision.sh")][ls -l /bisos/git/bxRepos/bisos-pip/provision/py2/bin/bisosProvision.sh]] *|*  == *|*    [[elisp:(org-shifttab)][<)]] E|
+####+END:
+
+
+####+BEGIN: blee:panel:icm:py:intro :outLevel 3 :sep nil :folding? nil :label "bootstrap" :icmName "/usr/local/bin/bisosProvision.sh" :comment "" :afterComment ""
+*** [[elisp:(show-all)][(>]] [[elisp:(blee:menu-sel:outline:popupMenu)][+-]] [[elisp:(blee:menu-sel:navigation:popupMenu)][==]]  /bootstrap/ :: [[elisp:(lsip-local-run-command "/usr/local/bin/bisosProvision.sh -i examples")][/usr/local/bin/bisosProvision.sh]]  [[elisp:(lsip-local-run-command "/usr/local/bin/bisosProvision.sh -i visit")][visit]]  [[elisp:(lsip-local-run-command "/usr/local/bin/bisosProvision.sh -i describe")][describe]] *|*  == *|*   [[elisp:(org-shifttab)][<)]] E|
+####+END:
+
+
+
+***  pip3 install bisos.provision  Creates:
        - /usr/local/bin/seedIcmStandalone.bash
        - /usr/local/bin/bisosProvision.sh
 
-    /usr/local/bin/bisosProvision is very minial. It accomplishes the following:
+    /usr/local/bin/bisosProvision.sh is a StandAlone Bash ICM.
+    /usr/local/bin/bisosProvision.sh needs seedIcmStandalone.bash in the directory.
+    /usr/local/bin/bisosProvision.sh is very minial. It accomplishes the following:
 
        - It installs git
        - It configures git
-       - It clones what is needed for Phase-2 in /opt/bisosProvision
-       - Runs the rest from there.
+       - With vis_provisionersBasesPrep, clones what is needed for Stage-2 in /opt/bisosProvision
+       - bisosProvision.sh then loads /opt/bisosProvisioner/gitRepos/provisioners/bin/bisosProvisioners_lib.sh
+       - bisosProvision.sh runs the rest from there.
 
     After that bin/bisosProvision is just an interfaces that 
     hides /opt/bisosProvision/gitRepos/provisioners from users.
 
-####+BEGIN: blee:bxPanel:foldingSection :outLevel 2 :sep t :title "Stage 2:: /opt/bisosProvision/gitRepos/provisioners" :anchor "" :extraInfo "git clone"
+####+BEGIN: blee:bxPanel:foldingSection :outLevel 2 :sep t :title "Stage 2:: Executed from /opt/bisosProvision/gitRepos/provisioners" :anchor "" :extraInfo "git clone"
 ** /[[elisp:(beginning-of-buffer)][|^]]  [[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]] [[elisp:(delete-other-windows)][|1]]/ 
-** [[elisp:(show-all)][(>]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_       [[elisp:(org-cycle)][| /Stage 2:: /opt/bisosProvision/gitRepos/provisioners:/ |]]  git clone  [[elisp:(org-shifttab)][<)]] E|
+** [[elisp:(show-all)][(>]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_       [[elisp:(org-cycle)][| /Stage 2:: Executed from /opt/bisosProvision/gitRepos/provisioners:/ |]]  git clone  [[elisp:(org-shifttab)][<)]] E|
 ####+END
 
-    /usr/local/bin/bisosProvision.sh then git clones /var/bisosProvision/gitRepos/provisioners
+    /usr/local/bin/bisosProvision.sh then 
+    git clones /opt/bisosProvision/gitRepos/provisioners
     and from within /opt/bisosProvision/gitRepos/provisioners/bin invokes as needed.
 
     gitRepos/provisioners is a SELF-CONTAINED-ICM
     
 
-    /opt/bisosProvision/gitRepos/provisioners accomplishes the following:
+    /opt/bisosProvisioner/gitRepos/provisioners/bin/ accomplishes the following:
       
+       - It creates /opt/bisosProvisioner/venv/py2 and /opt/bisosProvisioner/venv/py3
        - It sys installes needed python and pip
        - It sys pip installs bisos.xxx
        - It creates bisos and bystar accounts
-       - It creates the /bisos /de/run /bxo
+       - It creates the /bisos /de/run /bxo bases
+       - In those bases using /opt/bisosProvisioner/venv/py2 it runs bx-bases
        - It sets up virtenvs
        - It preps virtenvs
        - It mass reproduces git repos
        - It creates needed symlinks
-       - Sets up blee
+       - sets up blee??
+       - bisosProvision.sh then loads /bisos/core/bin/bisosProvisioners_lib.sh
+       - bisosProvision.sh runs the rest from there.
 
 ####+BEGIN: blee:bxPanel:foldingSection :outLevel 2 :sep t :title "Stage 2-Dev:: /opt/bisosProvision/gitRepos/provisioners" :anchor "" :extraInfo "external passwd and keys"
 ** /[[elisp:(beginning-of-buffer)][|^]]  [[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]] [[elisp:(delete-other-windows)][|1]]/ 
@@ -142,10 +214,15 @@
 
     Sets up passwds and keys for authenticated git.
 
-####+BEGIN: blee:bxPanel:foldingSection :outLevel 2 :sep t :title "Stage 3:: /bisos/core/bin" :anchor "" :extraInfo "with bisos/pip/pkgs"
+####+BEGIN: blee:bxPanel:foldingSection :outLevel 2 :sep t :title "Stage 3:: Executed from /bisos/core/bin" :anchor "" :extraInfo "with bisos/pip/pkgs"
 ** /[[elisp:(beginning-of-buffer)][|^]]  [[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]] [[elisp:(delete-other-windows)][|1]]/ 
-** [[elisp:(show-all)][(>]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_       [[elisp:(org-cycle)][| /Stage 3:: /bisos/core/bin:/ |]]  with bisos/pip/pkgs  [[elisp:(org-shifttab)][<)]] E|
+** [[elisp:(show-all)][(>]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_       [[elisp:(org-cycle)][| /Stage 3:: Executed from /bisos/core/bin:/ |]]  with bisos/pip/pkgs  [[elisp:(org-shifttab)][<)]] E|
 ####+END
+
+    From /bisos/core/bin  with  /bisos/core/bin/bisosProvisioners_lib.sh 
+    it then accomplishes the following:
+
+    - 
 
 ####+BEGIN: blee:bxPanel:separator :outLevel 1
 * /[[elisp:(beginning-of-buffer)][|^]] [[elisp:(blee:menu-sel:navigation:popupMenu)][==]] [[elisp:(delete-other-windows)][|1]]/
