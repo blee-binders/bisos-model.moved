@@ -27,7 +27,7 @@
 * [[elisp:(show-all)][(>]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_       [[elisp:(org-cycle)][| *Overview:* |]] <<Panel>>   [[elisp:(org-shifttab)][<)]] E|
 ####+END
 ** 
-** Overview Comes Here.
+** Scope of this panel.
 ** B|
 ####+BEGIN: blee:bxPanel:foldingSection :outLevel 1 :sep t :title "Concepts And Terminology" :anchor "" :extraInfo ""
 * /[[elisp:(beginning-of-buffer)][|^]]  [[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]] [[elisp:(delete-other-windows)][|1]]/ 
@@ -53,7 +53,16 @@
 System types can be used as qualifiers for platform. For example, Guest Platform.
 **** 
 *** 
-*** Platform Concepts/Hierarchies
+*** BxE and BxO Concepts/Hierarchies
+**** bxe s are uniqly identified by oid and by registrar uniq entityName.
+**** realized bxe have uname in repo which is same as entityName.
+**** activated bxe is a bxo
+**** bxo s have uname in bxp as account
+****  bxe reposSrc is derived from bxe-oid
+**** real entity bxe s can only be registeted by top level registrars.
+**** bxie-platform for manfactured  
+*** 
+*** Platform As Container Types For BxO Types -- Concepts/Hierarchies
 **** 
 **** Distro Image
 **** sysBasePlatform -- All this is needed to have functional blee panels and no more
