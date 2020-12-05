@@ -56,8 +56,9 @@ System types can be used as qualifiers for platform. For example, Guest Platform
 *** Platform Concepts/Hierarchies
 **** 
 **** Distro Image
-**** sysBasePlatform
-**** bxoContainer
+**** sysBasePlatform -- All this is needed to have functional blee panels and no more
+**** VM-Host-Platform -- After sysBasePlatform + virtualization software 
+**** bxoContainer -- After sysBasePlatform + All that is common to the rest
 **** bxoContainer-BACS (Bystar Account Container Server)
 **** bxoContainer-BACS-BSSP (Bystar Service Specific Platforms)
 **** bxoContainer-BISP (Bystar Intra Server Platform)
@@ -66,7 +67,13 @@ System types can be used as qualifiers for platform. For example, Guest Platform
 **** bxoContainer-BUP-BUCUP/BHUP (Bystar Unconscious Carry User Platform -- Handset)
 **** 
 *** 
-*** Platform Provisioning 
+*** Platform Provisioning Concepts
+**** 
+**** A platform's features and capabilities are known by:
+***** /bisos/control/bxp//platformType
+***** /bisos/control/bxp//features/featureName  -- usually maps to fgcXxx
+**** lcaXxBinsPrep.sh
+**** 
 *** 
 *** ICM Terminology
 **** 
