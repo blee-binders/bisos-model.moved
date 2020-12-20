@@ -19,7 +19,7 @@
 * [[elisp:(show-all)][|n]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_   General Panels ::   [[img-link:file:/bisos/blee/env/images/bystarInside.jpg][http://www.by-star.net]] *|*  [[elisp:(find-file "/libre/ByStar/InitialTemplates/activeDocs/listOfDocs/fullUsagePanel-en.org")][BxDE Top Panel]] *|* [[elisp:(blee:bnsm:panel-goto "/libre/ByStar/InitialTemplates/activeDocs/planning/Main")][ByStar Planning]]
 
 *   =Decedent Panels=  :: [[elisp:(blee:bnsm:panel-goto "/bisos/panels/bisos/model/PP-hardware/box/asus/_nodeBase_")][ =asus= ]] *|* [[elisp:(blee:bnsm:panel-goto "/bisos/panels/bisos/model/PP-hardware/box/dell/_nodeBase_")][ =dell= ]] *|* [[elisp:(blee:bnsm:panel-goto "/bisos/panels/bisos/model/PP-hardware/box/rasberryPi/_nodeBase_")][ =rasberryPi= ]] *|* [[elisp:(blee:bnsm:panel-goto "/bisos/panels/bisos/model/PP-hardware/box/samsung/_nodeBase_")][ =samsung= ]] *|* 
-*   =Sibling Panles=   :: [[elisp:(blee:bnsm:panel-goto "/bisos/panels/bisos/model/PP-hardware/box/_nodeBase_")][ =box= ]] *|* [[elisp:(blee:bnsm:panel-goto "/bisos/panels/bisos/model/PP-hardware/graphics/_nodeBase_")][ =graphics= ]] *|* 
+*   =Sibling Panels=   :: [[elisp:(blee:bnsm:panel-goto "/bisos/panels/bisos/model/PP-hardware/box/_nodeBase_")][ =box= ]] *|* [[elisp:(blee:bnsm:panel-goto "/bisos/panels/bisos/model/PP-hardware/graphics/_nodeBase_")][ =graphics= ]] *|* 
 *   =Ancestor Panles=  :: [[elisp:(blee:bnsm:panel-goto "/bisos/panels/bisos/model/PP-hardware/_nodeBase_")][ =PP-hardware= ]] *|* [[elisp:(blee:bnsm:panel-goto "/bisos/panels/bisos/model/_nodeBase_")][ =model= ]] *|* 
 *                                   _━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━_                          [[elisp:(org-shifttab)][<)]] E|
 ####+END

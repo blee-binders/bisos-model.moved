@@ -19,8 +19,8 @@
 * [[elisp:(show-all)][|n]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_   General Panels ::   [[img-link:file:/bisos/blee/env/images/bystarInside.jpg][http://www.by-star.net]] *|*  [[elisp:(find-file "/libre/ByStar/InitialTemplates/activeDocs/listOfDocs/fullUsagePanel-en.org")][BxDE Top Panel]] *|* [[elisp:(blee:bnsm:panel-goto "/libre/ByStar/InitialTemplates/activeDocs/planning/Main")][ByStar Planning]]
 
 *   =Sibling Panles=   :: [[elisp:(blee:bnsm:panel-goto "/bisos/panels/bisos/model/ICM")][ICM]] *|* [[elisp:(blee:bnsm:panel-goto "/bisos/panels/bisos/model/PP-hardware/_nodeBase_")][ =PP-hardware= ]] *|* [[elisp:(blee:bnsm:panel-goto "/bisos/panels/bisos/model/bisosAccts")][bisosAccts]] *|* [[elisp:(blee:bnsm:panel-goto "/bisos/panels/bisos/model/bisosProvisioning")][bisosProvisioning]] *|* [[elisp:(blee:bnsm:panel-goto "/bisos/panels/bisos/model/fileParameters")][fileParameters]] *|* 
-*   =Sibling Panles=   :: [[elisp:(blee:bnsm:panel-goto "/bisos/panels/bisos/model/fileTreeObject-FTO")][fileTreeObject-FTO]] *|* [[elisp:(blee:bnsm:panel-goto "/bisos/panels/bisos/model/fileVariables")][fileVariables]] *|* [[elisp:(blee:bnsm:panel-goto "/bisos/panels/bisos/model/modelAndTerminology")][modelAndTerminology]] *|* 
-*   =Ancestor Panles=  :: [[elisp:(blee:bnsm:panel-goto "/bisos/panels/bisos/model/_nodeBase_")][ =model= ]] *|* [[elisp:(blee:bnsm:panel-goto "/bisos/panels/bisos")][bisos]] *|* 
+*   =Sibling Panles=   :: [[elisp:(blee:bnsm:panel-goto "/bisos/panels/bisos/model/fileTreeObject-FTO")][fileTreeObject-FTO]] *|* [[elisp:(blee:bnsm:panel-goto "/bisos/panels/bisos/model/fileVariables")][fileVariables]] *|* [[elisp:(blee:bnsm:panel-goto "/bisos/panels/bisos/model/modelAndTerminology")][modelAndTerminology]] *|* [[elisp:(blee:bnsm:panel-goto "/bisos/panels/bisos/model/universalBisos")][universalBisos]] *|* 
+*   =Ancestor Panles=  :: [[elisp:(blee:bnsm:panel-goto "/bisos/panels/bisos/model/_nodeBase_")][ =model= ]] *|* [[elisp:(blee:bnsm:panel-goto "/bisos/panels/bisos/_nodeBase_")][ =bisos= ]] *|* 
 *                                   _━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━_                          [[elisp:(org-shifttab)][<)]] E|
 ####+END
 ####+BEGIN: blee:bxPanel:foldingSection :outLevel 1 :title "Overview" :anchor "Panel"
@@ -370,9 +370,10 @@ System types can be used as qualifiers for platform. For example, Guest Platform
 ** [[elisp:(show-all)][|n]] [[elisp:(blee:menu-sel:outline:popupMenu)][+-]] [[elisp:(blee:menu-sel:navigation:popupMenu)][==]] [[elisp:(blee:bnsm:panel-goto "/bisos/panels/bisos/model/fileTreeObject-FTO")][@ *fileTreeObject-FTO* @]]    ::  Leaf: /fileTreeObject-FTO/
 ** [[elisp:(show-all)][|n]] [[elisp:(blee:menu-sel:outline:popupMenu)][+-]] [[elisp:(blee:menu-sel:navigation:popupMenu)][==]] [[elisp:(blee:bnsm:panel-goto "/bisos/panels/bisos/model/fileVariables")][@ *fileVariables* @]]    ::  Leaf: /fileVariables/
 ** [[elisp:(show-all)][|n]] [[elisp:(blee:menu-sel:outline:popupMenu)][+-]] [[elisp:(blee:menu-sel:navigation:popupMenu)][==]] [[elisp:(blee:bnsm:panel-goto "/bisos/panels/bisos/model/modelAndTerminology")][@ *modelAndTerminology* @]]    ::  Leaf: /modelAndTerminology/
+** [[elisp:(show-all)][|n]] [[elisp:(blee:menu-sel:outline:popupMenu)][+-]] [[elisp:(blee:menu-sel:navigation:popupMenu)][==]] [[elisp:(blee:bnsm:panel-goto "/bisos/panels/bisos/model/universalBisos")][@ *universalBisos* @]]    ::  Leaf: /universalBisos/
 ** [[elisp:(show-all)][|N]] [[elisp:(blee:menu-sel:outline:popupMenu)][+-]] [[elisp:(blee:menu-sel:navigation:popupMenu)][==]]    <<~modelAndTerminology~>> ~nil:~ :inDblock 
 ** [[elisp:(show-all)][|n]] [[elisp:(blee:menu-sel:outline:popupMenu)][+-]] [[elisp:(blee:menu-sel:navigation:popupMenu)][==]] [[elisp:(blee:bnsm:panel-goto "/bisos/panels/bisos/model/_nodeBase_")][@ =model= @]]    ::  Node: /model/
-** [[elisp:(show-all)][|n]] [[elisp:(blee:menu-sel:outline:popupMenu)][+-]] [[elisp:(blee:menu-sel:navigation:popupMenu)][==]] [[elisp:(blee:bnsm:panel-goto "/bisos/panels/bisos")][@ *bisos* @]]    ::  Leaf: /bisos/
+** [[elisp:(show-all)][|n]] [[elisp:(blee:menu-sel:outline:popupMenu)][+-]] [[elisp:(blee:menu-sel:navigation:popupMenu)][==]] [[elisp:(blee:bnsm:panel-goto "/bisos/panels/bisos/_nodeBase_")][@ =bisos= @]]    ::  Node: /bisos/
 ** [[elisp:(org-shifttab)][<)]] E|
 ####+END
 ####+BEGIN: blee:bxPanel:evolution
