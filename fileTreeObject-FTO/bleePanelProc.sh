@@ -9,7 +9,7 @@ SEED="
 *  /[dblock]/ /Seed/ :: [[file:/opt/public/osmt/bin/seedBleePanelProc.sh]] | 
 "
 FILE="
-*  /This File/ :: /bisos/panels/bisos/model/fileTreeObject-FTO/bleePanelProc.sh 
+*  /This File/ :: /bisos/panels/bisos-model/fileTreeObject-FTO/bleePanelProc.sh 
 "
 if [ "${loadFiles}" == "" ] ; then
     /opt/public/osmt/bin/seedBleePanelProc.sh -l $0 "$@" 
