@@ -94,7 +94,7 @@
      Requires:
      1) unisos.icm
      2) unisos.ucf
-**** Run bisosProvision.sh which uses bx-platformInfoManage.py
+**** Run /usr/local/bin/provisionBisos.sh which uses bx-platformInfoManage.py
 **** 
 **** git clone bxGenesis.provisioners  --- Selfconatined ICMs
 **** from provisoners venv pip bisos.bx-bases  --- BISOS ICMs
