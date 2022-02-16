@@ -87,13 +87,39 @@
 ** /[[elisp:(beginning-of-buffer)][|^]]  [[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]] [[elisp:(delete-other-windows)][|1]]/
 ** [[elisp:(show-all)][(>]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_       [[elisp:(org-cycle)][| /Autonomous Services Extentions:/ |]]  /bisos/ase  [[elisp:(org-shifttab)][<)]] E|
 ####+END
-*** 
+*** +
 *** ByName Autonomous Deligated 
 *** B| 
 ####+BEGIN: blee:bxPanel:foldingSection :outLevel 2 :sep t :title "BISOS Capabilities Extentions" :anchor "" :extraInfo "/bisos/ce"
 ** /[[elisp:(beginning-of-buffer)][|^]]  [[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]] [[elisp:(delete-other-windows)][|1]]/
 ** [[elisp:(show-all)][(>]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_       [[elisp:(org-cycle)][| /BISOS Capabilities Extentions:/ |]]  /bisos/ce  [[elisp:(org-shifttab)][<)]] E|
 ####+END
+####+BEGIN: blee:bxPanel:foldingSection :outLevel 1 :sep t :title "ByStar Realms" :anchor "" :extraInfo "Place Holder -- For Now"
+* /[[elisp:(beginning-of-buffer)][|^]]  [[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]] [[elisp:(delete-other-windows)][|1]]/
+* [[elisp:(show-all)][(>]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_       [[elisp:(outline-show-subtree+toggle)][| *ByStar Realms:* |]]  Place Holder -- For Now  [[elisp:(org-shifttab)][<)]] E|
+####+END
+** +
+** ByStar Realms represent a strict hierarchy for inheritance and for gathering.
+ByStar Realms represent a strict hierarchy and order for specificcation and customization inheritance and for
+gathering.
+
+"collective"         ;; ByStar Digital Ecosystem
+"nation"
+"district"   ;; eg service provider
+"site"
+"projs"
+"platform"
+"user"
+** Within each of those a priority order number is at work
+** Realms apply to "gatherings" --- ByStar gatherings are:
+*** +
+*** bashrc (gathering)
+*** bleePanel (gathering)
+*** params (inherited)
+*** -
+** BPO Realm Base  --- ~bpo/realm/panel/~
+** Default BISOS Realms -- /bisos/git/bxRepos/bisos/gatherer
+** B|
 ####+BEGIN: blee:bxPanel:separator :outLevel 1
 * /[[elisp:(beginning-of-buffer)][|^]] [[elisp:(blee:menu-sel:navigation:popupMenu)][==]] [[elisp:(delete-other-windows)][|1]]/
 ####+END
