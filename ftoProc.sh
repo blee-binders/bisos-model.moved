@@ -41,10 +41,10 @@ _CommentEnd_
 ####+BEGIN: bx:dblock:ploneProc:bash:leavesList :types ""
 # {{{ DBLOCK-leavesList
 leavesList="
-universalBisos
-bisosProvisioning
 bisosAccts
+universalBisos
 modelAndTerminology
+bisosProvisioning
 "
 # }}} DBLOCK-leavesList
 ####+END:
