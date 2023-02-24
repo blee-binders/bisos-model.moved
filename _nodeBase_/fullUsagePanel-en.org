@@ -52,6 +52,7 @@
 * [[elisp:(show-all)][(>]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_       [[elisp:(outline-show-subtree+toggle)][| *ByStar DE As An Applied Math Theory:* |]]    [[elisp:(org-shifttab)][<)]] E|
 ####+END
 ** +
+** In a sense, a digital ecosystem reflects specific arrangements of information and software and services.
 ** It is probably possible to use applied math to define a digital ecosystem.
 ** With ByStar in terms of formality of introduction of concepts and precision of the introduced vocabulary
 ** our aim is to come as close to the style of applied math definition as possible.
@@ -137,6 +138,8 @@ gathering.
 * [[elisp:(show-all)][(>]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_       [[elisp:(outline-show-subtree+toggle)][| *System, Platform, BpoContainer:* |]]  BSOs vs BPOs  [[elisp:(org-shifttab)][<)]] E|
 ####+END
 ** +
+** /Box/ or /Blank Box/:: A blank computer
+** /Debian Box/:: A computer loaded with Debian
 ** /Platform::/ is Debian + BISOS Environment (basic accounts, groups, software) + Bootstraping BSO
 ** BSO:: (BISOS Static Object) BPO without a git
 ** Bootstraping BSO:: Initial BSOs intended to be replaced with BPOs after RimsCreation
@@ -144,8 +147,12 @@ gathering.
 ** Orphan Platform:: Platform + Orphand BSOs
 ** RimsCreation:: Process of Creating: Registrars, RimGitServer, Replacement of BSOs with BPOs
 ** RimsResources:: Registrars, RimGitServer
-** /BpoContainer/ is Platform + BPOs
+** /BpoContainer/ is Platform + BPOs (through BISOS-Site)
 ** /System/ is either of Platform of Container
+** /Host/:: Qualifier for System in Virtialization host context
+** /Guest/:: Qualifier for System in Virtialization guest context
+** /Non-Virtualized/:: Qualifier for System when not virtialized.
+**  what are other names for computer
 ** B|
 ####+BEGIN: blee:bxPanel:foldingSection :outLevel 1 :sep t :title "ByStar Network Abodes --- Rings, Edge and Rims --- Portable and Transferable" :anchor "" :extraInfo ""
 * /[[elisp:(beginning-of-buffer)][|^]]  [[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]] [[elisp:(delete-other-windows)][|1]]/
@@ -160,17 +167,76 @@ gathering.
 * [[elisp:(show-all)][(>]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_       [[elisp:(outline-show-subtree+toggle)][| *PFC and PSC:* |]]  Portable Facilities/Services Capabilities  [[elisp:(org-shifttab)][<)]] E|
 ####+END
 ** +
-** Portable Facilities Capability  (PFC) = BPO + Facility Software
-** Portable Service Capability (PSC) = BPO + Service Software
+** Portable Facilities Capability  (PFC) = usage-BPO + Facility Software (Examples: MARMEE, LCNT)
+** --- Perhaps Not Needed separate from PALS -- Portable Service Capability (PSC) = paai-BPO + Service Software
 ** B|
 ####+BEGIN: blee:bxPanel:foldingSection :outLevel 1 :sep t :title "PALS and PAAI" :anchor "" :extraInfo "Possession Assertion Autonomous Identity"
 * /[[elisp:(beginning-of-buffer)][|^]]  [[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]] [[elisp:(delete-other-windows)][|1]]/
 * [[elisp:(show-all)][(>]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_       [[elisp:(outline-show-subtree+toggle)][| *PALS and PAAI:* |]]  Possession Assertion Autonomous Identity  [[elisp:(org-shifttab)][<)]] E|
 ####+END
 ** +
-** Possesion Assertable Libre-Halaal Service (PALS) = PSC + PAAI-Framework
-** Possesion Assertable Autonomous Identity (PAAI) = PAAI-Framework + domainName + registrations
+** Possesion Assertable Libre-Halaal Service (PALS) = paai-BPO + Service Software + PAAI-Framework ()
+** Possesion Assertable Autonomous Identity (PAAI) = PAAI-Framework + domainName + registrations + PALSs
 ** B|
+####+BEGIN: blee:bxPanel:foldingSection :outLevel 1 :sep t :title "BISDF" :anchor "" :extraInfo "BISOS Development Framework"
+* /[[elisp:(beginning-of-buffer)][|^]]  [[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]] [[elisp:(delete-other-windows)][|1]]/
+* [[elisp:(show-all)][(>]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_       [[elisp:(outline-show-subtree+toggle)][| *BISDF:* |]]  BISOS Development Framework  [[elisp:(org-shifttab)][<)]] E|
+####+END
+
+| Adopted Packages  | Label     | [[ignore][File]]  | [[ignore][Panel]] | Used For | Description                     |
+|-------------------+-----------+-------+-------+----------+---------------------------------|
+| deprecated        | org-begin |       |       |          | COMEEGA triggers                |
+| logging           | bpf.fv    | [[Path ][fv.py]] | [[Path ][fv.py]] | Many     | Simple configurations           |
+
+
+
+| Construct         | Label       | [[ignore][File]]   | [[ignore][Panel]]  | Used For | Description                        |
+|-------------------+-------------+--------+--------+----------+------------------------------------|
+| Org-Mode Comments | org-begin   |        |        |          | COMEEGA triggers                   |
+| File Variables    | bpf.fv      | [[Path ][fv.py]]  | [[Path ][fv.py]]  | Many     | Simple configurations              |
+| File Tree Objects | bpf.fto     | none   | none   | Common   | Auto walkthrough of leaf/branch    |
+| File Parameters   | bpf.fp      | none   | none   | Common   | Common configurations              |
+|-------------------+-------------+--------+--------+----------+------------------------------------|
+| Operation Outcome | OpOutcome   | none   | none   | Common   | Result + Error + Failure + Reports |
+| Operation         | Op          | none   | none   | Common   | Receives and Returns OpOutcome     |
+| Wrapped Operation | OpW         | none   | none   | Common   | An Operation invoked from a CS     |
+| Command Services  | CmndSvc     | none   | none   | Common   | Expecation Complete Operation      |
+| CS-Parameter      | CS_Param    | NOTYET | NOTYET | common   | Also maps to FPs                   |
+| CS-Args           | CS_args     |        |        |          | CS Args specification              |
+| CS-examples       | cs_examples |        |        |          |                                    |
+| CS-examples-niche | niche       |        |        |          |                                    |
+|-------------------+-------------+--------+--------+----------+------------------------------------|
+| Operation Outcome | LOG_        | none   | none   | Common   | Result + Error + Failure + Reports |
+| Operation Outcome | EH_         | none   | none   | Common   | Result + Error + Failure + Reports |
+| Operation Outcome | TM_         | none   | none   | Common   | Result + Error + Failure + Reports |
+| Operation Outcome | NOTE_       | none   | none   | Common   | Result + Error + Failure + Reports |
+|-------------------+-------------+--------+--------+----------+------------------------------------|
+| Currents          | cur         | none   | none   | Common   | Result + Error + Failure + Reports |
+| SubProc           | subProc     | none   | none   | Common   | Result + Error + Failure + Reports |
+| Directories       | bpf.dir     | none   | none   | Common   | Result + Error + Failure + Reports |
+| pyRunAs           | as_root_    | none   | none   | Common   | bpf.as_root_writeToFile            |
+|                   |             |        |        |          |                                    |
+
+** ~BISDF Key Concepts And Terminology~ (ByStar Internet Services Development Framework)
+** Typed Function   --- Programming Language Construct (typed args and typed return values)
+** Operation  --- (Arguments, Result, Error) A function that returns An OpOutcome and accepts an opOutcome as an argument and whose arguments are typed.
+** Operation opOutcome  --- Results, Status, Errors, Failures, Reports
+** Expectation-Complete-Operation --- An Operation capable of reporting all of its inputs and of its OpOutcome.
+Expectation-Complete-Operation can be invoked in such a way that they do not invoke the operation but that instead
+they report their expected parameters and their expected Outcome.
+** Command-Service --- An Expectation-Complete-Operation Which can be invoked as a command, a service or an operation.
+** A Command, is invocation of a Command-Service from the command line.
+** A Service Performer, is invocation of a Command-Service through Remote-Operations machinary
+** A Service Invoker, is invocation of a Command-Service that produces inputs for a Remote-Operations machinary and which then receives the Outcome.
+** An Expectation-Complete-Operation-User-Interface --- A User-Interface that through the use of Expectation-Complete-Operation
+can produce a generic but complete interface for invocation as a command or a service invoker.
+** Wrapped-Operations --- Operations invoked during the invokation of an Expectation-Complete-Operation.
+** ~BISDF Fundamental Constructs~ (ByStar Internet Services Development Framework)
+Bound to Python --- COMEEGA ---
+** Classes labeled as "Abstract" are to be sub-classed. They are Abstract and not usable as raw.
+** bisos-pip/bpf/op.py
+** -
+**      ============
 ####+BEGIN: blee:bxPanel:separator :outLevel 1
 * /[[elisp:(beginning-of-buffer)][|^]] [[elisp:(blee:menu-sel:navigation:popupMenu)][==]] [[elisp:(delete-other-windows)][|1]]/
 ####+END
