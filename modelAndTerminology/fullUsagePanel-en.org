@@ -112,13 +112,15 @@ Bound to Python --- COMEEGA ---
 **** VM-Host: A Host capable of hosting Guests
 **** Guest: A VM Guest
 **** VM-Guest: A VM Guest
-**** Pure-Host: A Host which does not support any Guests
+**** Pure-Host: A Host which does not support virtualization.
 **** PureSys: Same as a Pure-Host
 **** 
-**** BxP: ByStar Platform -- Any Sys equipped with BISOS
+**** BxP: (BP) ByStar Platform -- Any Sys equipped with BISOS
 **** Platform: Same as BxP -- Any Sys equipped with BISOS |
 System types can be used as qualifiers for platform. For example, Guest Platform.
-***** 
+**** BCP: BISOS Container Platform -- BP capable of containing BPOs
+**** BSP: BISOS Site Platform -- A BP configured within a site
+****
 *** 
 *** BxE and BxO Concepts/Hierarchies
 **** registered bxe s are uniqly identified by oid and by registrar uniq entityName.
